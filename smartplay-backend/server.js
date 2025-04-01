@@ -20,7 +20,7 @@ app.use(cors({
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/smartplay', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://kavin:n6fu9xtu@cluster0.ho6x3.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
